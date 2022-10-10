@@ -1,0 +1,46 @@
+.bg-dark {
+    /* --bs-bg-opacity: 1; */
+    /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
+    background-color: #380303;
+}
+element.style {
+    width: 18rem;
+    margin-top: 4px;
+}
+
+
+
+
+
+
+
+
+
+.bg-gradient-primary {
+    background-color: #dfaf4e;
+    background-image: linear-gradient(180deg,#9f4f08 10%,#be7122 100%);
+    background-size: cover;
+}
+
+
+
+generara
+element.style {
+    background-color: #9f4f08;
+    color: antiquewhite;
+}
+
+
+busqeuda
+element.style {
+    background-color: #9f4f08;
+    color: antiquewhite;
+}
+
+
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    /* background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important; */
+    background-color: #d5a566;
+}

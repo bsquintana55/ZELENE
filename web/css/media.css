@@ -1,0 +1,19 @@
+
+
+@media (min-width: 400px ) and (max-width: 500px) {
+  
+    .foto_fondo_1 #foto3 {
+      /* display: none; */
+      position: absolute;
+      margin-top: 23rem;
+      height: 15rem;
+      margin-left: 2.5rem;
+      border-radius: 15em;
+      width: 15rem;
+    }
+    .bg-gradient-primary-to-secondary {
+    /* background: linear-gradient(45deg, #bd733e, #3a0505) !important; */
+    background: #000000;
+    }
+    
+} 
