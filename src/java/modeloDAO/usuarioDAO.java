@@ -98,7 +98,7 @@ public class usuarioDAO extends ConexionBd implements Crud {
                 Logger.getLogger(usuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
-        return false;
+        return operacion;
 
     
     
