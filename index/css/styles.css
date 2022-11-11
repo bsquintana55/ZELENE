@@ -89,6 +89,95 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
+
+
+
+#logo_nav{
+  width: 13rem;
+  margin-top: 4px;
+}
+
+@media (max-width: 375px) {
+
+  #logo_nav{
+   
+    width: 10rem;
+    margin-top: 4px;
+  }
+ 
+  
+}
+
+@media (max-width: 991px) {
+  .bg-dark {
+    --bs-bg-opacity: 1;
+    background-image: url(/assets/images/fondos/fondo_b.jpg) !important;
+    background-size: cover;
+  }
+  
+  .fondo_menu{
+  background-image: url(/assets/images/fondos/fondo_b.jpg) ;
+  background-size: cover;
+}
+.fondo_parti{
+  background-image: url(/assets/images/fondos/fondo_b.jpg) ;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+}
+.fondo_sistema{
+   background-image: url(/assets/images/fondos/fondo_b.jpg) !important;
+  background-size: cover;
+
+} 
+  
+}
+
+@media (min-width: 992px) {
+
+.fondo_menu{
+  background-image: url(/assets/images/fondos/fondo_h.jpg) ;
+  background-size: cover;
+}
+.fondo_parti{
+  background-image: url(/assets/images/fondos/fondo_h.jpg) ;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+}
+.fondo_sistema{
+   background-image: url(/assets/images/fondos/fondo_h.jpg) !important;
+  background-size: cover;
+
+}
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-image: url(/assets/images/fondos/fondo_h.jpg) !important;
+  background-size: cover;
+}
+ 
+}
+
+
+
+.fondo_color{
+
+  color:#4d041f;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -296,12 +385,6 @@ figure {
   margin: 0 0 1rem;
 }
 
-
-
-#logo_nav{
-  width: 18rem;
-  margin-top: 4px;
-}
 
 
 
@@ -7850,10 +7933,6 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-dark {
-  --bs-bg-opacity: 1;
-  background-color: #894f19 !important;
-}
 
 .bg-black {
   --bs-bg-opacity: 1;
