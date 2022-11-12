@@ -96,14 +96,27 @@ body {
 #logo_nav{
   width: 13rem;
   margin-top: 4px;
+ 
+}
+
+@media (min-width: 376px) {
+  #logo_nav2{
+    display: none
+   }
+  
 }
 
 @media (max-width: 375px) {
 
   #logo_nav{
+   display: none;
    
-    width: 10rem;
+  }
+  #logo_nav2{
+    display: block;
+    width: 2.5em;
     margin-top: 4px;
+   
   }
  
   
